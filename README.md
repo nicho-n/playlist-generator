@@ -1,5 +1,5 @@
 <h1>Overview</h1>
-This is a cloud-deployed "ai agent" that listens to the radio 24/7 and builds spotify playlists.
+This is a cloud-deployed agent that listens to the radio 24/7 and builds spotify playlists.
 
 Running the `spotify_headless` will ping some "Now Playing" radio API endpoints, collecting the songs to a file.
 
