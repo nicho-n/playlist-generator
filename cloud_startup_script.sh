@@ -14,9 +14,6 @@ git clone git@github.com:nicho-n/playlist-generator.git /opt/app
 # Install Cloud Ops Agent
 sudo bash /opt/app/add-google-cloud-ops-agent-repo.sh --also-install
 
-# Account to own server process
-#useradd -m -d /home/pythonapp pythonapp
-
 # Python environment setup
 python3 -m venv /opt/app/env
 /bin/bash -c "source /opt/app/env/bin/activate"
